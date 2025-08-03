@@ -24,7 +24,7 @@ function git_sparse_clone() {
   cd .. && rm -rf $repodir
 }
 
-# OpenList & AdGuardHome & WolPlus & Lucky & OpenAppFilter & 集客无线AC控制器 & 雅典娜LED控制
+# OpenList & AdGuardHome & WolPlus & Lucky & OpenAppFilter & 集客无线AC控制器 & 雅典娜LED控制 & EasyTier & luci-app-timecontrol
 git clone --depth=1 https://github.com/sbwml/luci-app-openlist2 package/openlist
 git_sparse_clone master https://github.com/kenzok8/openwrt-packages adguardhome luci-app-adguardhome
 git_sparse_clone main https://github.com/VIKINGYFY/packages luci-app-wolplus
@@ -32,6 +32,8 @@ git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lu
 git clone --depth=1 https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone --depth=1 https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 git clone --depth=1 https://github.com/NONGFAH/luci-app-athena-led package/luci-app-athena-led
+git clone --depth=1 https://github.com/EasyTier/EasyTier.git package/luci-app-EasyTier
+git clone --depth=1 https://github.com/gaobin89/luci-app-timecontrol.git package/luci-app-timecontrol
 chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app-athena-led/root/usr/sbin/athena-led
 
 ./scripts/feeds update -a
