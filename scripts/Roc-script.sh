@@ -32,6 +32,7 @@ git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lu
 git clone --depth=1 https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone --depth=1 https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 git clone --depth=1 https://github.com/NONGFAH/luci-app-athena-led package/luci-app-athena-led
+# 添加
 git clone --depth=1 https://github.com/EasyTier/EasyTier.git package/luci-app-EasyTier
 git clone --depth=1 https://github.com/gaobin89/luci-app-timecontrol.git package/luci-app-timecontrol
 git clone --depth=1 https://github.com/sirpdboy/luci-app-netspeedtest.git package/luci-app-netspeedtest
