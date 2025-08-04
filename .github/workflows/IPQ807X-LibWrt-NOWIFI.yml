@@ -16,7 +16,7 @@ env:
   MADS: false
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ807X
+  FIRMWARE_TAG: IPQ807X-NOWIFI
   TZ: Asia/Shanghai
 
 jobs:
