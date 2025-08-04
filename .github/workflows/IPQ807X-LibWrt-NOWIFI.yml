@@ -1,4 +1,4 @@
-name: IPQ807X-LibWrt
+name: IPQ807X-LibWrt-NOWIFI
 
 on:
   workflow_dispatch:
