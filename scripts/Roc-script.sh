@@ -34,7 +34,7 @@ git clone --depth=1 https://github.com/lwb1978/openwrt-gecoosac package/openwrt-
 git clone --depth=1 https://github.com/NONGFAH/luci-app-athena-led package/luci-app-athena-led
 # 添加
 git clone --depth=1 https://github.com/EasyTier/luci-app-easytier.git package/luci-app-EasyTier
-git clone --depth=1 https://github.com/gaobin89/luci-app-timecontrol.git package/luci-app-timecontrol
+git clone --depth=1 --branch js https://github.com/gaobin89/luci-app-timecontrol.git package/luci-app-timecontrol
 git clone --depth=1 https://github.com/sirpdboy/luci-app-netspeedtest.git package/luci-app-netspeedtest
 chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app-athena-led/root/usr/sbin/athena-led
 
