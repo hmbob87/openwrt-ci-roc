@@ -2,7 +2,7 @@ name: IPQ807X-LibWrt-NOWIFI
 
 on:
   workflow_dispatch:
-  workflow_call:
+  #workflow_call:
   # schedule:
   #   - cron: 0 20 * * *
 
